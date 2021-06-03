@@ -1,6 +1,7 @@
-<%= render 'info', books: @books %>
+<h3>Users index</h3>
+<!--投稿フォーム（_info.html.erb）を呼ぶ-->
+<%= render 'info', book: @book ,user: @user%>
 
-  <h1>Usersindexのページ</h1>
 <% @users.each do |user| %>
 <div>
   <p><%= user.name %></p>

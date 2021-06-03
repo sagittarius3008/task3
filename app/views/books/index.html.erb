@@ -1,13 +1,14 @@
-<h3>books_index</h3>
+<%= render 'users/info', book: @book ,user: @user%>
+
+<h3>books index</h3>
 <% @books.each do |book| %>
-  <p>本の題名：
-    <%= link_to book_path(book.id) do %>
-      <%= book.title %>
-    <% end %>
-  </p>
-  <p><%= user.name %></p>
-  
-  <p>説明：<%= book.body %></p>
-  <p>ユーザーネーム：<%= book.user.name %></p>
+  <div>
+    <p>本の題名：
+      <%= link_to book_path(book.id) do %><%= book.title %><% end %>
+    </p>
+    <!--アタッチメントもいれること-->
+    <p>説明：<%= book.body %></p>
+    <p>ユーザーネーム：<%= book.user.name %></p>
+  </div>
 <% end %>
 <h3>books_index</h3>
