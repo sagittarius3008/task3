@@ -1,7 +1,10 @@
 class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
-    @books = @user.books.page(params[:page]).reverse_order
+    # @books = @user.books.page(params[:page]).reverse_order
+    # @book = Book.find(params[:id])だとidがuser id？が入る
+    # 絞り込みたい
+    @books = Book.all
   end
   
   def edit

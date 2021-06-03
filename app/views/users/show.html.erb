@@ -1,22 +1,28 @@
-
+<h1>Users Show画面</h1>
+<!--プロフィール画面-->
 <div class="profile-container">
-  <h3 class="profile-name"><%= @user.name %></h3>
   <%= attachment_image_tag @user, :profile_image, :fill, 50, 50, format: 'jpeg', fallback: "no_image.jpg" %>
+    <h5 class="profile-name"><%= @user.name %></h5>
+    <h5 class="introduction"><%= @user.introduction %></h5>
+<!--editボタンの表示-->
   <% if @user.id == current_user.id %>
     <p><%= link_to "プロフィール編集", edit_user_path(@user) %></p>
   <% end %>
 </div>
 
+
+<!--対象userが投稿したbookの表示-->
 <% @books.each do |book| %>
-<div>
-  <p>本のタイトル：
-    <%= link_to book_path(book.id) do %>
-      <%= book.title %>
-    <% end %>
-  </p>
-  <p>感想：<%= book.body %></p>
-  <p>投稿者：<%= book.user.name %></p>
-  <p>投稿ユーザー画像：<%= attachment_image_tag book.user, :profile_image, :fill, 30, 30, fallback: "no_image.jpg" %></p>
-</div>
+  <div>
+    <p>タイトル：
+      <%= link_to book_path(book.id) do %>
+        <%= book.title %>
+      <% end %>
+    </p>
+    <p>感想：<%= book.body %></p>
+    <p>投稿者：<%= book.user.name %></p>
+    <p>投稿ユーザー画像：<%= attachment_image_tag book.user, :profile_image, :fill, 30, 30, fallback: "no_image.jpg" %></p>
+  </div>
 <% end %>
-<%= paginate @books %>
+<h3>showページ終わり</h3>
+<!--%= paginate @books %-->

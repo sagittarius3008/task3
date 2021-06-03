@@ -8,6 +8,6 @@ class User < ApplicationRecord
   
   # バリデーション設定
   validates :name, presence: true, length: { minimum:2, maximum:20}, uniqueness: true
-  validates :introduction, presence: true, length: { maximum:50}
+  validates :introduction, length: { maximum:50}
   
 end

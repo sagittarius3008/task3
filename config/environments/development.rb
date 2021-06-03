@@ -51,7 +51,9 @@ Rails.application.configure do
 
   # Suppress logger output for asset requests.
   config.assets.quiet = true
-
+  # cannnot render console~~~~とでていたので下記対策
+  # https://qiita.com/suin/items/9b567c63af73b235e458
+  config.web_console.whitelisted_ips = '0.0.0.0/0'
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
