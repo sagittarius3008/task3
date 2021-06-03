@@ -1,14 +1,14 @@
 <%= render 'users/info', book: @book ,user: @user%>
-
+<div>
 <h3>books index</h3>
 <% @books.each do |book| %>
   <div>
     <p>本の題名：
       <%= link_to book_path(book.id) do %><%= book.title %><% end %>
     </p>
-    <!--アタッチメントもいれること-->
+    <p><%= attachment_image_tag book.user, :profile_image, :fill, 30, 30, fallback: "no_image.jpg" %></p>
     <p>説明：<%= book.body %></p>
     <p>ユーザーネーム：<%= book.user.name %></p>
   </div>
 <% end %>
-<h3>books_index</h3>
+</div>
