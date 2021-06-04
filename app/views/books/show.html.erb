@@ -1,11 +1,18 @@
 <%= render 'users/info', book: @book ,user: @user%>
 
 <div class="book-body">
-  <p>本のタイトル：<%= @book.title %></p>
-  <p>説明：<%= @book.body %></p>
-  <p>ユーザーネーム：<%= @book.user.name %></p>
-  <p>投稿日時：<%= @book.created_at.strftime('%Y/%m/%d') %></p>
-  <% if @book.user == current_user %>
-    <%= link_to "削除", book_path(@book), method: :delete %>
-  <% end %>
+  <h2>Book detail</p>
+  <table>
+    <tr>
+      <td>
+        <p><%= attachment_image_tag @user, :profile_image, :fill, 50, 50, fallback: "no_image.jpg" %></p>
+        <p><%= @books.user.name %></p>
+      </td>
+      <td><p><%= @books.title %></p></td>
+      <td><p><%= @books.body %></p></td>
+      <% if @books.user == current_user %>
+      <td><%= link_to "削除", book_path(@books), method: :delete %></td>
+      <% end %>
+    </tr>
+  </table>
 </div>
