@@ -1,7 +1,6 @@
 <div>
-  
+<!--ユーザー詳細-->
 <h4>User info</h4>
-
 <p><%= attachment_image_tag user, :profile_image, :fill, 50, 50, fallback: "no_image.jpg" %></p>
 <table>
   <tr>
@@ -15,7 +14,7 @@
 </table>
  <%= link_to edit_user_path(user.id) do %><i class="fas fa-user-cog"></i><% end %>
 
-
+<!--投稿フォーム-->
 <h4>New book</h4>
 <%= form_with model: book, local:true do |f| %>
   <h4>本のタイトル</h4>

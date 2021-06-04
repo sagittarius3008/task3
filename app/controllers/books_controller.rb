@@ -20,6 +20,7 @@ class BooksController < ApplicationController
   end
 
   def show
+    # showアクション内に@bookが重複してる
     @book = Book.new
     @user = current_user
     @book = Book.find(params[:id])
