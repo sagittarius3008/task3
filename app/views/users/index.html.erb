@@ -1,10 +1,22 @@
 <!--投稿フォーム（_info.html.erb）を呼ぶ-->
 <%= render 'info', book: @book ,user: @user%>
-<div>
-<% @users.each do |user| %>
-<div>
-  <p><%= user.name %></p>
-  <p>投稿ユーザー画像：<%= attachment_image_tag user, :profile_image, :fill, 80, 80, fallback: "no_image.jpg" %></p>
-</div>
-<% end %>
+<div class="container col-md-3">
+  <h2>Users</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>image</th>
+          <th>user</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @users.each do |user| %>
+        <tr>
+          <td><%= attachment_image_tag user, :profile_image, :fill, 80, 80, fallback: "no_image.jpg" %></td>
+          <td><%= user.name %></td>
+          <td><%= link_to 'show', user_path(@user.id) %></td>
+        </tr>
+        <% end%>
+      </tbody>
+    </table>
 </div>

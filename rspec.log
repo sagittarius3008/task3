@@ -106,19 +106,19 @@ Userモデルのテスト
 [32m      titleフォームに値が入っていない[0m
 [32m      opinionフォームが表示される[0m
 [32m      opinionフォームに値が入っていない[0m
-[31m      Create Bookボタンが表示される (FAILED - 2)[0m
+[32m      Create Bookボタンが表示される[0m
     投稿成功のテスト
-[31m      自分の新しい投稿が正しく保存される (FAILED - 3)[0m
-[31m      リダイレクト先が、保存できた投稿の詳細画面になっている (FAILED - 4)[0m
+[32m      自分の新しい投稿が正しく保存される[0m
+[32m      リダイレクト先が、保存できた投稿の詳細画面になっている[0m
   自分の投稿詳細画面のテスト
     表示内容の確認
 [32m      URLが正しい[0m
 [32m      「Book detail」と表示される[0m
-[31m      ユーザ画像・名前のリンク先が正しい (FAILED - 5)[0m
+[31m      ユーザ画像・名前のリンク先が正しい (FAILED - 2)[0m
 [32m      投稿のtitleが表示される[0m
 [32m      投稿のopinionが表示される[0m
-[31m      投稿の編集リンクが表示される (FAILED - 6)[0m
-[31m      投稿の削除リンクが表示される (FAILED - 7)[0m
+[31m      投稿の編集リンクが表示される (FAILED - 3)[0m
+[31m      投稿の削除リンクが表示される (FAILED - 4)[0m
     サイドバーの確認
 [32m      自分の名前と紹介文が表示される[0m
 [32m      自分のユーザ編集画面へのリンクが存在する[0m
@@ -127,33 +127,33 @@ Userモデルのテスト
 [32m      titleフォームに値が入っていない[0m
 [32m      opinionフォームが表示される[0m
 [32m      opinionフォームに値が入っていない[0m
-[31m      Create Bookボタンが表示される (FAILED - 8)[0m
+[32m      Create Bookボタンが表示される[0m
     投稿成功のテスト
-[31m      自分の新しい投稿が正しく保存される (FAILED - 9)[0m
+[32m      自分の新しい投稿が正しく保存される[0m
     編集リンクのテスト
-[31m      編集画面に遷移する (FAILED - 10)[0m
+[31m      編集画面に遷移する (FAILED - 5)[0m
     削除リンクのテスト
-[31m      正しく削除される (FAILED - 11)[0m
-[31m      リダイレクト先が、投稿一覧画面になっている (FAILED - 12)[0m
+[31m      正しく削除される (FAILED - 6)[0m
+[31m      リダイレクト先が、投稿一覧画面になっている (FAILED - 7)[0m
   自分の投稿編集画面のテスト
     表示の確認
-[31m      URLが正しい (FAILED - 13)[0m
-[31m      「Editing Book」と表示される (FAILED - 14)[0m
-[31m      title編集フォームが表示される (FAILED - 15)[0m
-[31m      opinion編集フォームが表示される (FAILED - 16)[0m
-[31m      Update Bookボタンが表示される (FAILED - 17)[0m
-[31m      Showリンクが表示される (FAILED - 18)[0m
-[31m      Backリンクが表示される (FAILED - 19)[0m
+[32m      URLが正しい[0m
+[32m      「Editing Book」と表示される[0m
+[32m      title編集フォームが表示される[0m
+[32m      opinion編集フォームが表示される[0m
+[32m      Update Bookボタンが表示される[0m
+[31m      Showリンクが表示される (FAILED - 8)[0m
+[31m      Backリンクが表示される (FAILED - 9)[0m
     編集成功のテスト
-[31m      titleが正しく更新される (FAILED - 20)[0m
-[31m      bodyが正しく更新される (FAILED - 21)[0m
-[31m      リダイレクト先が、更新した投稿の詳細画面になっている (FAILED - 22)[0m
+[31m      titleが正しく更新される (FAILED - 10)[0m
+[31m      bodyが正しく更新される (FAILED - 11)[0m
+[31m      リダイレクト先が、更新した投稿の詳細画面になっている (FAILED - 12)[0m
   ユーザ一覧画面のテスト
     表示内容の確認
 [32m      URLが正しい[0m
 [32m      自分と他人の画像が表示される: fallbackの画像がサイドバーの1つ＋一覧(2人)の2つの計3つ存在する[0m
 [32m      自分と他人の名前がそれぞれ表示される[0m
-[31m      自分と他人のshowリンクがそれぞれ表示される (FAILED - 23)[0m
+[31m      自分と他人のshowリンクがそれぞれ表示される (FAILED - 13)[0m
     サイドバーの確認
 [32m      自分の名前と紹介文が表示される[0m
 [32m      自分のユーザ編集画面へのリンクが存在する[0m
@@ -162,14 +162,14 @@ Userモデルのテスト
 [32m      titleフォームに値が入っていない[0m
 [32m      opinionフォームが表示される[0m
 [32m      opinionフォームに値が入っていない[0m
-[31m      Create Bookボタンが表示される (FAILED - 24)[0m
+[32m      Create Bookボタンが表示される[0m
   自分のユーザ詳細画面のテスト
     表示の確認
 [32m      URLが正しい[0m
 [32m      投稿一覧のユーザ画像のリンク先が正しい[0m
 [32m      投稿一覧に自分の投稿のtitleが表示され、リンクが正しい[0m
 [32m      投稿一覧に自分の投稿のopinionが表示される[0m
-[31m      他人の投稿は表示されない (FAILED - 25)[0m
+[31m      他人の投稿は表示されない (FAILED - 14)[0m
     サイドバーの確認
 [32m      自分の名前と紹介文が表示される[0m
 [32m      自分のユーザ編集画面へのリンクが存在する[0m
@@ -178,58 +178,58 @@ Userモデルのテスト
 [32m      titleフォームに値が入っていない[0m
 [32m      opinionフォームが表示される[0m
 [32m      opinionフォームに値が入っていない[0m
-[31m      Create Bookボタンが表示される (FAILED - 26)[0m
+[32m      Create Bookボタンが表示される[0m
   自分のユーザ情報編集画面のテスト
     表示の確認
 [32m      URLが正しい[0m
 [32m      名前編集フォームに自分の名前が表示される[0m
 [32m      画像編集フォームが表示される[0m
 [32m      自己紹介編集フォームに自分の自己紹介文が表示される[0m
-[31m      Update Userボタンが表示される (FAILED - 27)[0m
+[31m      Update Userボタンが表示される (FAILED - 15)[0m
     更新成功のテスト
-[31m      nameが正しく更新される (FAILED - 28)[0m
-[31m      introductionが正しく更新される (FAILED - 29)[0m
-[31m      リダイレクト先が、自分のユーザ詳細画面になっている (FAILED - 30)[0m
+[31m      nameが正しく更新される (FAILED - 16)[0m
+[31m      introductionが正しく更新される (FAILED - 17)[0m
+[31m      リダイレクト先が、自分のユーザ詳細画面になっている (FAILED - 18)[0m
 
 [STEP3] 仕上げのテスト
   サクセスメッセージのテスト
-[31m    ユーザ新規登録成功時 (FAILED - 31)[0m
-[31m    ユーザログイン成功時 (FAILED - 32)[0m
-[31m    ユーザログアウト成功時 (FAILED - 33)[0m
-[31m    ユーザのプロフィール情報更新成功時 (FAILED - 34)[0m
-[31m    投稿データの新規投稿成功時: 投稿一覧画面から行います。 (FAILED - 35)[0m
-[31m    投稿データの更新成功時 (FAILED - 36)[0m
+[32m    ユーザ新規登録成功時[0m
+[32m    ユーザログイン成功時[0m
+[32m    ユーザログアウト成功時[0m
+[31m    ユーザのプロフィール情報更新成功時 (FAILED - 19)[0m
+[31m    投稿データの新規投稿成功時: 投稿一覧画面から行います。 (FAILED - 20)[0m
+[31m    投稿データの更新成功時 (FAILED - 21)[0m
   処理失敗時のテスト
     ユーザ新規登録失敗: nameを1文字にする
 [32m      新規登録されない[0m
 [32m      新規登録画面を表示しており、フォームの内容が正しい[0m
 [32m      バリデーションエラーが表示される[0m
     ユーザのプロフィール情報編集失敗: nameを1文字にする
-[31m      更新されない (FAILED - 37)[0m
-[31m      ユーザ編集画面を表示しており、フォームの内容が正しい (FAILED - 38)[0m
-[31m      バリデーションエラーが表示される (FAILED - 39)[0m
+[31m      更新されない (FAILED - 22)[0m
+[31m      ユーザ編集画面を表示しており、フォームの内容が正しい (FAILED - 23)[0m
+[31m      バリデーションエラーが表示される (FAILED - 24)[0m
     投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする
-[31m      投稿が保存されない (FAILED - 40)[0m
-[31m      投稿一覧画面を表示している (FAILED - 41)[0m
+[32m      投稿が保存されない[0m
+[31m      投稿一覧画面を表示している (FAILED - 25)[0m
 [32m      新規投稿フォームの内容が正しい[0m
-[31m      バリデーションエラーが表示される (FAILED - 42)[0m
+[32m      バリデーションエラーが表示される[0m
     投稿データの更新失敗: titleを空にする
-[31m      投稿が更新されない (FAILED - 43)[0m
-[31m      投稿編集画面を表示しており、フォームの内容が正しい (FAILED - 44)[0m
-[31m      エラーメッセージが表示される (FAILED - 45)[0m
+[31m      投稿が更新されない (FAILED - 26)[0m
+[31m      投稿編集画面を表示しており、フォームの内容が正しい (FAILED - 27)[0m
+[31m      エラーメッセージが表示される (FAILED - 28)[0m
   ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する
 [32m    ユーザ一覧画面[0m
 [32m    ユーザ詳細画面[0m
 [32m    ユーザ情報編集画面[0m
 [32m    投稿一覧画面[0m
 [32m    投稿詳細画面[0m
-[31m    投稿編集画面 (FAILED - 46)[0m
+[32m    投稿編集画面[0m
   他人の画面のテスト
     他人の投稿詳細画面のテスト
       表示内容の確認
 [32m        URLが正しい[0m
 [32m        「Book detail」と表示される[0m
-[31m        ユーザ画像・名前のリンク先が正しい (FAILED - 47)[0m
+[31m        ユーザ画像・名前のリンク先が正しい (FAILED - 29)[0m
 [32m        投稿のtitleが表示される[0m
 [32m        投稿のopinionが表示される[0m
 [32m        投稿の編集リンクが表示されない[0m
@@ -240,26 +240,26 @@ Userモデルのテスト
 [32m        自分の名前と紹介文は表示されない[0m
 [32m        自分のユーザ編集画面へのリンクは存在しない[0m
     他人の投稿編集画面
-[31m      遷移できず、投稿一覧画面にリダイレクトされる (FAILED - 48)[0m
+[31m      遷移できず、投稿一覧画面にリダイレクトされる (FAILED - 30)[0m
     他人のユーザ詳細画面のテスト
       表示の確認
 [32m        URLが正しい[0m
-[31m        投稿一覧のユーザ画像のリンク先が正しい (FAILED - 49)[0m
+[31m        投稿一覧のユーザ画像のリンク先が正しい (FAILED - 31)[0m
 [32m        投稿一覧に他人の投稿のtitleが表示され、リンクが正しい[0m
 [32m        投稿一覧に他人の投稿のopinionが表示される[0m
-[31m        自分の投稿は表示されない (FAILED - 50)[0m
+[31m        自分の投稿は表示されない (FAILED - 32)[0m
       サイドバーの確認
 [32m        他人の名前と紹介文が表示される[0m
 [32m        他人のユーザ編集画面へのリンクが存在する[0m
-[31m        自分の名前と紹介文は表示されない (FAILED - 51)[0m
+[31m        自分の名前と紹介文は表示されない (FAILED - 33)[0m
 [32m        自分のユーザ編集画面へのリンクは存在しない[0m
     他人のユーザ情報編集画面
-[31m      遷移できず、自分のユーザ詳細画面にリダイレクトされる (FAILED - 52)[0m
+[31m      遷移できず、自分のユーザ詳細画面にリダイレクトされる (FAILED - 34)[0m
   グリッドシステムのテスト: container, row, col-md-〇を正しく使えている
-[31m    ユーザ一覧画面 (FAILED - 53)[0m
-[31m    ユーザ詳細画面 (FAILED - 54)[0m
-[31m    投稿一覧画面 (FAILED - 55)[0m
-[31m    投稿詳細画面 (FAILED - 56)[0m
+[31m    ユーザ一覧画面 (FAILED - 35)[0m
+[31m    ユーザ詳細画面 (FAILED - 36)[0m
+[31m    投稿一覧画面 (FAILED - 37)[0m
+[31m    投稿詳細画面 (FAILED - 38)[0m
   アイコンのテスト
     トップ画面
 [32m      本のアイコンが表示される[0m
@@ -288,215 +288,197 @@ Failures:
      [31m  expected to find link "" with href "/users/1" but there were no matches[0m
      [36m# ./spec/system/02_after_login_spec.rb:52:in `block (4 levels) in <main>'[0m
 
-  2) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 Create Bookボタンが表示される
-     [31mFailure/Error: expect(page).to have_button 'Create Book'[0m
-     [31m  expected to find button "Create Book" that is not disabled but there were no matches[0m
-     [36m# ./spec/system/02_after_login_spec.rb:88:in `block (4 levels) in <main>'[0m
-
-  3) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 投稿成功のテスト 自分の新しい投稿が正しく保存される
-     [31mFailure/Error: expect { click_button 'Create Book' }.to change(user.books, :count).by(1)[0m
-     [31m[0m
-     [31mCapybara::ElementNotFound:[0m
-     [31m  Unable to find button "Create Book" that is not disabled[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:303:in `block in synced_resolve'[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/base.rb:83:in `synchronize'[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:53:in `find'[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:58:in `click_button'[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/session.rb:768:in `block (2 levels) in <class:Session>'[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-     [36m# ./spec/system/02_after_login_spec.rb:99:in `block (5 levels) in <main>'[0m
-     [36m# ./spec/system/02_after_login_spec.rb:99:in `block (4 levels) in <main>'[0m
-
-  4) [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 投稿成功のテスト リダイレクト先が、保存できた投稿の詳細画面になっている
-     [31mFailure/Error: click_button 'Create Book'[0m
-     [31m[0m
-     [31mCapybara::ElementNotFound:[0m
-     [31m  Unable to find button "Create Book" that is not disabled[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:303:in `block in synced_resolve'[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/base.rb:83:in `synchronize'[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:53:in `find'[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:58:in `click_button'[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/session.rb:768:in `block (2 levels) in <class:Session>'[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-     [36m# ./spec/system/02_after_login_spec.rb:102:in `block (4 levels) in <main>'[0m
-
-  5) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい
+  2) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい
      [31mFailure/Error: expect(page).to have_link book.user.name, href: user_path(book.user)[0m
-     [31m  expected to find link "j261b940sb" with href "/users/2" but there were no matches[0m
+     [31m  expected to find link "ozju1kk2xa" with href "/users/2" but there were no matches[0m
      [36m# ./spec/system/02_after_login_spec.rb:121:in `block (4 levels) in <main>'[0m
 
-  6) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿の編集リンクが表示される
+  3) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿の編集リンクが表示される
      [31mFailure/Error: expect(page).to have_link 'Edit', href: edit_book_path(book)[0m
-     [31m[0m
-     [31mNoMethodError:[0m
-     [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP2::Nested_3::Nested:0x000000000af40da8>[0m
+     [31m  expected to find link "Edit" with href "/books/1/edit" but there were no matches[0m
      [36m# ./spec/system/02_after_login_spec.rb:130:in `block (4 levels) in <main>'[0m
 
-  7) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿の削除リンクが表示される
+  4) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿の削除リンクが表示される
      [31mFailure/Error: expect(page).to have_link 'Destroy', href: book_path(book)[0m
      [31m  expected to find link "Destroy" with href "/books/1" but there were no matches[0m
      [36m# ./spec/system/02_after_login_spec.rb:133:in `block (4 levels) in <main>'[0m
 
-  8) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 Create Bookボタンが表示される
-     [31mFailure/Error: expect(page).to have_button 'Create Book'[0m
-     [31m  expected to find button "Create Book" that is not disabled but there were no matches[0m
-     [36m# ./spec/system/02_after_login_spec.rb:161:in `block (4 levels) in <main>'[0m
-
-  9) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 投稿成功のテスト 自分の新しい投稿が正しく保存される
-     [31mFailure/Error: expect { click_button 'Create Book' }.to change(user.books, :count).by(1)[0m
+  5) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 編集リンクのテスト 編集画面に遷移する
+     [31mFailure/Error: click_link 'Edit'[0m
      [31m[0m
      [31mCapybara::ElementNotFound:[0m
-     [31m  Unable to find button "Create Book" that is not disabled[0m
+     [31m  Unable to find link "Edit"[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:303:in `block in synced_resolve'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/base.rb:83:in `synchronize'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:53:in `find'[0m
-     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:58:in `click_button'[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:42:in `click_link'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/session.rb:768:in `block (2 levels) in <class:Session>'[0m
      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-     [36m# ./spec/system/02_after_login_spec.rb:172:in `block (5 levels) in <main>'[0m
-     [36m# ./spec/system/02_after_login_spec.rb:172:in `block (4 levels) in <main>'[0m
+     [36m# ./spec/system/02_after_login_spec.rb:178:in `block (4 levels) in <main>'[0m
 
-  10) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 編集リンクのテスト 編集画面に遷移する
-      [31mFailure/Error: click_link 'Edit'[0m
+  6) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 削除リンクのテスト 正しく削除される
+     [31mFailure/Error: click_link 'Destroy'[0m
+     [31m[0m
+     [31mCapybara::ElementNotFound:[0m
+     [31m  Unable to find link "Destroy"[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:303:in `block in synced_resolve'[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/base.rb:83:in `synchronize'[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:53:in `find'[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:42:in `click_link'[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/session.rb:768:in `block (2 levels) in <class:Session>'[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
+     [36m# ./spec/system/02_after_login_spec.rb:185:in `block (4 levels) in <main>'[0m
+
+  7) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 削除リンクのテスト リダイレクト先が、投稿一覧画面になっている
+     [31mFailure/Error: click_link 'Destroy'[0m
+     [31m[0m
+     [31mCapybara::ElementNotFound:[0m
+     [31m  Unable to find link "Destroy"[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:303:in `block in synced_resolve'[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/base.rb:83:in `synchronize'[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:53:in `find'[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:42:in `click_link'[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/session.rb:768:in `block (2 levels) in <class:Session>'[0m
+     [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
+     [36m# ./spec/system/02_after_login_spec.rb:185:in `block (4 levels) in <main>'[0m
+
+  8) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Showリンクが表示される
+     [31mFailure/Error: expect(page).to have_link 'Show', href: book_path(book)[0m
+     [31m  expected to find link "Show" with href "/books/1" but there were no matches[0m
+     [36m# ./spec/system/02_after_login_spec.rb:219:in `block (4 levels) in <main>'[0m
+
+  9) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Backリンクが表示される
+     [31mFailure/Error: expect(page).to have_link 'Back', href: books_path[0m
+     [31m  expected to find link "Back" with href "/books" but there were no matches[0m
+     [36m# ./spec/system/02_after_login_spec.rb:222:in `block (4 levels) in <main>'[0m
+
+  10) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト titleが正しく更新される
+      [31mFailure/Error: click_button 'Update Book'[0m
       [31m[0m
-      [31mCapybara::ElementNotFound:[0m
-      [31m  Unable to find link "Edit"[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:303:in `block in synced_resolve'[0m
+      [31mActionController::RoutingError:[0m
+      [31m  No route matches [PATCH] "/books/1"[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:38:in `call_app'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:524:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:74:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `each'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/builder.rb:244:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/mock_session.rb:29:in `request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:266:in `process_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:129:in `custom_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:66:in `post'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:72:in `process'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:47:in `process_and_follow_redirects'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:36:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/form.rb:43:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:75:in `click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:137:in `block (2 levels) in <class:Node>'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:172:in `block in click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `block in perform_click_action'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/base.rb:83:in `synchronize'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:53:in `find'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:42:in `click_link'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `perform_click_action'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:171:in `click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:58:in `click_button'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/session.rb:768:in `block (2 levels) in <class:Session>'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-      [36m# ./spec/system/02_after_login_spec.rb:178:in `block (4 levels) in <main>'[0m
+      [36m# ./spec/system/02_after_login_spec.rb:232:in `block (4 levels) in <main>'[0m
 
-  11) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 削除リンクのテスト 正しく削除される
-      [31mFailure/Error: click_link 'Destroy'[0m
+  11) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト bodyが正しく更新される
+      [31mFailure/Error: click_button 'Update Book'[0m
       [31m[0m
-      [31mCapybara::ElementNotFound:[0m
-      [31m  Unable to find link "Destroy"[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:303:in `block in synced_resolve'[0m
+      [31mActionController::RoutingError:[0m
+      [31m  No route matches [PATCH] "/books/1"[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:38:in `call_app'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:524:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:74:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `each'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/builder.rb:244:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/mock_session.rb:29:in `request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:266:in `process_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:129:in `custom_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:66:in `post'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:72:in `process'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:47:in `process_and_follow_redirects'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:36:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/form.rb:43:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:75:in `click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:137:in `block (2 levels) in <class:Node>'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:172:in `block in click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `block in perform_click_action'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/base.rb:83:in `synchronize'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:53:in `find'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:42:in `click_link'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `perform_click_action'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:171:in `click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:58:in `click_button'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/session.rb:768:in `block (2 levels) in <class:Session>'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-      [36m# ./spec/system/02_after_login_spec.rb:185:in `block (4 levels) in <main>'[0m
+      [36m# ./spec/system/02_after_login_spec.rb:232:in `block (4 levels) in <main>'[0m
 
-  12) [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 削除リンクのテスト リダイレクト先が、投稿一覧画面になっている
-      [31mFailure/Error: click_link 'Destroy'[0m
+  12) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト リダイレクト先が、更新した投稿の詳細画面になっている
+      [31mFailure/Error: click_button 'Update Book'[0m
       [31m[0m
-      [31mCapybara::ElementNotFound:[0m
-      [31m  Unable to find link "Destroy"[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:303:in `block in synced_resolve'[0m
+      [31mActionController::RoutingError:[0m
+      [31m  No route matches [PATCH] "/books/1"[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:38:in `call_app'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:524:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:74:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `each'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/builder.rb:244:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/mock_session.rb:29:in `request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:266:in `process_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:129:in `custom_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:66:in `post'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:72:in `process'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:47:in `process_and_follow_redirects'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:36:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/form.rb:43:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:75:in `click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:137:in `block (2 levels) in <class:Node>'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:172:in `block in click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `block in perform_click_action'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/base.rb:83:in `synchronize'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:53:in `find'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:42:in `click_link'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `perform_click_action'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:171:in `click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:58:in `click_button'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/session.rb:768:in `block (2 levels) in <class:Session>'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-      [36m# ./spec/system/02_after_login_spec.rb:185:in `block (4 levels) in <main>'[0m
+      [36m# ./spec/system/02_after_login_spec.rb:232:in `block (4 levels) in <main>'[0m
 
-  13) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 URLが正しい
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP2::Nested_4::Nested:0x000000000a50fc80>[0m
-      [36m# ./spec/system/02_after_login_spec.rb:199:in `block (3 levels) in <main>'[0m
-
-  14) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 「Editing Book」と表示される
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP2::Nested_4::Nested:0x0000000009e6df58>[0m
-      [36m# ./spec/system/02_after_login_spec.rb:199:in `block (3 levels) in <main>'[0m
-
-  15) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 title編集フォームが表示される
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP2::Nested_4::Nested:0x000000000a08db08>[0m
-      [36m# ./spec/system/02_after_login_spec.rb:199:in `block (3 levels) in <main>'[0m
-
-  16) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 opinion編集フォームが表示される
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP2::Nested_4::Nested:0x000000000a380a18>[0m
-      [36m# ./spec/system/02_after_login_spec.rb:199:in `block (3 levels) in <main>'[0m
-
-  17) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Update Bookボタンが表示される
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP2::Nested_4::Nested:0x000000000ab5bc10>[0m
-      [36m# ./spec/system/02_after_login_spec.rb:199:in `block (3 levels) in <main>'[0m
-
-  18) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Showリンクが表示される
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP2::Nested_4::Nested:0x000000000ad23ae8>[0m
-      [36m# ./spec/system/02_after_login_spec.rb:199:in `block (3 levels) in <main>'[0m
-
-  19) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Backリンクが表示される
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP2::Nested_4::Nested:0x000000000af317b8>[0m
-      [36m# ./spec/system/02_after_login_spec.rb:199:in `block (3 levels) in <main>'[0m
-
-  20) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト titleが正しく更新される
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP2::Nested_4::Nested_2:0x000000000b1ca5b0>[0m
-      [36m# ./spec/system/02_after_login_spec.rb:199:in `block (3 levels) in <main>'[0m
-
-  21) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト bodyが正しく更新される
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP2::Nested_4::Nested_2:0x000000000b4339f0>[0m
-      [36m# ./spec/system/02_after_login_spec.rb:199:in `block (3 levels) in <main>'[0m
-
-  22) [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト リダイレクト先が、更新した投稿の詳細画面になっている
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP2::Nested_4::Nested_2:0x0000000007d63290>[0m
-      [36m# ./spec/system/02_after_login_spec.rb:199:in `block (3 levels) in <main>'[0m
-
-  23) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 自分と他人のshowリンクがそれぞれ表示される
+  13) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 自分と他人のshowリンクがそれぞれ表示される
       [31mFailure/Error: expect(page).to have_link 'Show', href: user_path(user)[0m
       [31m  expected to find link "Show" with href "/users/2" but there were no matches[0m
       [36m# ./spec/system/02_after_login_spec.rb:265:in `block (4 levels) in <main>'[0m
 
-  24) [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 Create Bookボタンが表示される
-      [31mFailure/Error: expect(page).to have_button 'Create Book'[0m
-      [31m  expected to find button "Create Book" that is not disabled but there were no matches[0m
-      [36m# ./spec/system/02_after_login_spec.rb:294:in `block (4 levels) in <main>'[0m
-
-  25) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト 表示の確認 他人の投稿は表示されない
+  14) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト 表示の確認 他人の投稿は表示されない
       [31mFailure/Error: expect(page).not_to have_content other_book.title[0m
-      [31m  expected not to find text "z5wrs" in "Bookers Home Users Books logout\nUser info\nname aolnjaejmo introduction lbtlzhnw7ud3v4u8yqju\nNew book\n本のタイトル\n感想文\nタイトル： 72b48\n感想：t7sv1jmqnqw40i4158ft\n投稿者：aolnjaejmo\n投稿ユーザー画像：\nタイトル： z5wrs\n感想：qabg2p3ppcgl01dn1tv6\n投稿者：ofqzanjkdc\n投稿ユーザー画像：\nCopyRight Infratop.inc"[0m
+      [31m  expected not to find text "zs5uu" in "Bookers Home Users Books logout\nUser info\nname dwxww89p82 introduction 8rmxmllu6ij0sr8ya5wc\nNew book\n本のタイトル\n感想文\nタイトル： jicbu\n感想：vf9hls6ib4p0ce89vol2\n投稿者：dwxww89p82\n投稿ユーザー画像：\nタイトル： zs5uu\n感想：3ud4gr0vg4atlhvdmc4r\n投稿者：rycoacbu6y\n投稿ユーザー画像：\nCopyRight Infratop.inc"[0m
       [36m# ./spec/system/02_after_login_spec.rb:319:in `block (4 levels) in <main>'[0m
 
-  26) [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 Create Bookボタンが表示される
-      [31mFailure/Error: expect(page).to have_button 'Create Book'[0m
-      [31m  expected to find button "Create Book" that is not disabled but there were no matches[0m
-      [36m# ./spec/system/02_after_login_spec.rb:348:in `block (4 levels) in <main>'[0m
-
-  27) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 表示の確認 Update Userボタンが表示される
+  15) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 表示の確認 Update Userボタンが表示される
       [31mFailure/Error: expect(page).to have_button 'Update User'[0m
       [31m  expected to find button "Update User" that is not disabled but there were no matches[0m
       [36m# ./spec/system/02_after_login_spec.rb:372:in `block (4 levels) in <main>'[0m
 
-  28) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト nameが正しく更新される
+  16) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト nameが正しく更新される
       [31mFailure/Error: click_button 'Update User'[0m
       [31m[0m
       [31mCapybara::ElementNotFound:[0m
@@ -510,7 +492,7 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
       [36m# ./spec/system/02_after_login_spec.rb:382:in `block (4 levels) in <main>'[0m
 
-  29) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト introductionが正しく更新される
+  17) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト introductionが正しく更新される
       [31mFailure/Error: click_button 'Update User'[0m
       [31m[0m
       [31mCapybara::ElementNotFound:[0m
@@ -524,7 +506,7 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
       [36m# ./spec/system/02_after_login_spec.rb:382:in `block (4 levels) in <main>'[0m
 
-  30) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト リダイレクト先が、自分のユーザ詳細画面になっている
+  18) [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト リダイレクト先が、自分のユーザ詳細画面になっている
       [31mFailure/Error: click_button 'Update User'[0m
       [31m[0m
       [31mCapybara::ElementNotFound:[0m
@@ -538,22 +520,7 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
       [36m# ./spec/system/02_after_login_spec.rb:382:in `block (4 levels) in <main>'[0m
 
-  31) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザ新規登録成功時
-      [31mFailure/Error: is_expected.to have_content 'successfully'[0m
-      [31m  expected to find text "successfully" in "Bookers Home Users Books logout\nUser info\nname ve7a3rdsv introduction\nNew book\n本のタイトル\n感想文\nタイトル： 4ij1o\n感想：rwuj4f8lyzm341p5p6fl\n投稿者：ksbng4n8wj\n投稿ユーザー画像：\nタイトル： 3zvj5\n感想：gu9nqvfrw5j8ers8u6ln\n投稿者：5y12q5h7ho\n投稿ユーザー画像：\nCopyRight Infratop.inc"[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:19:in `block (3 levels) in <main>'[0m
-
-  32) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザログイン成功時
-      [31mFailure/Error: is_expected.to have_content 'successfully'[0m
-      [31m  expected to find text "successfully" in "Bookers Home Users Books logout\nUser info\nname mlse9m6f1a introduction mgxem83zn9ml1708jkqt\nNew book\n本のタイトル\n感想文\nタイトル： zj44m\n感想：13mshdw385jwchb7jpsw\n投稿者：mlse9m6f1a\n投稿ユーザー画像：\nタイトル： glzzf\n感想：4agi7w7ycbgv2mcgadnx\n投稿者：wqjzy26ix7\n投稿ユーザー画像：\nCopyRight Infratop.inc"[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:26:in `block (3 levels) in <main>'[0m
-
-  33) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザログアウト成功時
-      [31mFailure/Error: is_expected.to have_content 'successfully'[0m
-      [31m  expected to find text "successfully" in "Bookers Home about sign up login\nWelcome to Bookers!\nIn Bookers,\nyou can share and exchange your opinions , inpressions , and emotionsabout various books!\nLog in Sign up\nCopyRight Infratop.inc"[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:36:in `block (3 levels) in <main>'[0m
-
-  34) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザのプロフィール情報更新成功時
+  19) [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザのプロフィール情報更新成功時
       [31mFailure/Error: click_button 'Update User'[0m
       [31m[0m
       [31mCapybara::ElementNotFound:[0m
@@ -567,28 +534,48 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:44:in `block (3 levels) in <main>'[0m
 
-  35) [STEP3] 仕上げのテスト サクセスメッセージのテスト 投稿データの新規投稿成功時: 投稿一覧画面から行います。
-      [31mFailure/Error: click_button 'Create Book'[0m
+  20) [STEP3] 仕上げのテスト サクセスメッセージのテスト 投稿データの新規投稿成功時: 投稿一覧画面から行います。
+      [31mFailure/Error: is_expected.to have_content 'successfully'[0m
+      [31m  expected to find text "successfully" in "Bookers Home Users Books logout\nSuccessfully\nUser info\nname lugj250419 introduction 5mhwbzrgmk3qpsdtjc8f\nNew book\n本のタイトル\n感想文\nBook detail\nlugj250419\nzrkqy\n8by1lwnuuqm0h11i0rnk\n編集 削除\n<\nCopyRight Infratop.inc". (However, it was found 1 time using a case insensitive search.)[0m
+      [36m# ./spec/system/03_finishing_touches_spec.rb:56:in `block (3 levels) in <main>'[0m
+
+  21) [STEP3] 仕上げのテスト サクセスメッセージのテスト 投稿データの更新成功時
+      [31mFailure/Error: click_button 'Update Book'[0m
       [31m[0m
-      [31mCapybara::ElementNotFound:[0m
-      [31m  Unable to find button "Create Book" that is not disabled[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:303:in `block in synced_resolve'[0m
+      [31mActionController::RoutingError:[0m
+      [31m  No route matches [PATCH] "/books/1"[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:38:in `call_app'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:524:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:74:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `each'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/builder.rb:244:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/mock_session.rb:29:in `request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:266:in `process_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:129:in `custom_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:66:in `post'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:72:in `process'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:47:in `process_and_follow_redirects'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:36:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/form.rb:43:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:75:in `click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:137:in `block (2 levels) in <class:Node>'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:172:in `block in click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `block in perform_click_action'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/base.rb:83:in `synchronize'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:53:in `find'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `perform_click_action'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:171:in `click'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:58:in `click_button'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/session.rb:768:in `block (2 levels) in <class:Session>'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:55:in `block (3 levels) in <main>'[0m
+      [36m# ./spec/system/03_finishing_touches_spec.rb:64:in `block (3 levels) in <main>'[0m
 
-  36) [STEP3] 仕上げのテスト サクセスメッセージのテスト 投稿データの更新成功時
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP3::Nested:0x0000000009e59378>[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:63:in `block (3 levels) in <main>'[0m
-
-  37) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする 更新されない
+  22) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする 更新されない
       [31mFailure/Error: click_button 'Update User'[0m
       [31m[0m
       [31mCapybara::ElementNotFound:[0m
@@ -602,7 +589,7 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:106:in `block (4 levels) in <main>'[0m
 
-  38) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする ユーザ編集画面を表示しており、フォームの内容が正しい
+  23) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする ユーザ編集画面を表示しており、フォームの内容が正しい
       [31mFailure/Error: click_button 'Update User'[0m
       [31m[0m
       [31mCapybara::ElementNotFound:[0m
@@ -616,7 +603,7 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:106:in `block (4 levels) in <main>'[0m
 
-  39) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする バリデーションエラーが表示される
+  24) [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする バリデーションエラーが表示される
       [31mFailure/Error: click_button 'Update User'[0m
       [31m[0m
       [31mCapybara::ElementNotFound:[0m
@@ -630,105 +617,149 @@ Failures:
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:106:in `block (4 levels) in <main>'[0m
 
-  40) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする 投稿が保存されない
-      [31mFailure/Error: expect { click_button 'Create Book' }.not_to change(Book.all, :count)[0m
+  25) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする 投稿一覧画面を表示している
+      [31mFailure/Error: expect(page).to have_content book.body[0m
+      [31m  expected to find text "qhwfp91021nufzkb4qg4" in "Bookers Home Users Books logout\n1件のエラーが発生しました Title can't be blank\n投稿フォーム\n本のタイトル\n感想文\ntj69utxnqbjw701s9su\nCopyRight Infratop.inc"[0m
+      [36m# ./spec/system/03_finishing_touches_spec.rb:137:in `block (4 levels) in <main>'[0m
+
+  26) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする 投稿が更新されない
+      [31mFailure/Error: click_button 'Update Book'[0m
       [31m[0m
-      [31mCapybara::ElementNotFound:[0m
-      [31m  Unable to find button "Create Book" that is not disabled[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:303:in `block in synced_resolve'[0m
+      [31mActionController::RoutingError:[0m
+      [31m  No route matches [PATCH] "/books/1"[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:38:in `call_app'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:524:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:74:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `each'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/builder.rb:244:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/mock_session.rb:29:in `request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:266:in `process_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:129:in `custom_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:66:in `post'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:72:in `process'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:47:in `process_and_follow_redirects'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:36:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/form.rb:43:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:75:in `click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:137:in `block (2 levels) in <class:Node>'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:172:in `block in click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `block in perform_click_action'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/base.rb:83:in `synchronize'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:53:in `find'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `perform_click_action'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:171:in `click'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:58:in `click_button'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/session.rb:768:in `block (2 levels) in <class:Session>'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:132:in `block (5 levels) in <main>'[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:132:in `block (4 levels) in <main>'[0m
+      [36m# ./spec/system/03_finishing_touches_spec.rb:159:in `block (4 levels) in <main>'[0m
 
-  41) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする 投稿一覧画面を表示している
-      [31mFailure/Error: click_button 'Create Book'[0m
+  27) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする 投稿編集画面を表示しており、フォームの内容が正しい
+      [31mFailure/Error: click_button 'Update Book'[0m
       [31m[0m
-      [31mCapybara::ElementNotFound:[0m
-      [31m  Unable to find button "Create Book" that is not disabled[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:303:in `block in synced_resolve'[0m
+      [31mActionController::RoutingError:[0m
+      [31m  No route matches [PATCH] "/books/1"[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:38:in `call_app'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:524:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:74:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `each'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/builder.rb:244:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/mock_session.rb:29:in `request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:266:in `process_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:129:in `custom_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:66:in `post'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:72:in `process'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:47:in `process_and_follow_redirects'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:36:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/form.rb:43:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:75:in `click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:137:in `block (2 levels) in <class:Node>'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:172:in `block in click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `block in perform_click_action'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/base.rb:83:in `synchronize'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:53:in `find'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `perform_click_action'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:171:in `click'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:58:in `click_button'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/session.rb:768:in `block (2 levels) in <class:Session>'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:135:in `block (4 levels) in <main>'[0m
+      [36m# ./spec/system/03_finishing_touches_spec.rb:159:in `block (4 levels) in <main>'[0m
 
-  42) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする バリデーションエラーが表示される
-      [31mFailure/Error: click_button 'Create Book'[0m
+  28) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする エラーメッセージが表示される
+      [31mFailure/Error: click_button 'Update Book'[0m
       [31m[0m
-      [31mCapybara::ElementNotFound:[0m
-      [31m  Unable to find button "Create Book" that is not disabled[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:303:in `block in synced_resolve'[0m
+      [31mActionController::RoutingError:[0m
+      [31m  No route matches [PATCH] "/books/1"[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:38:in `call_app'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/rack/logger.rb:26:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/engine.rb:524:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:74:in `block in call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `each'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/urlmap.rb:58:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-2.2.3/lib/rack/builder.rb:244:in `call'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/mock_session.rb:29:in `request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:266:in `process_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:129:in `custom_request'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/rack-test-1.1.0/lib/rack/test.rb:66:in `post'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:72:in `process'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:47:in `process_and_follow_redirects'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/browser.rb:36:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/form.rb:43:in `submit'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:75:in `click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/rack_test/node.rb:137:in `block (2 levels) in <class:Node>'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:172:in `block in click'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `block in perform_click_action'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/base.rb:83:in `synchronize'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:292:in `synced_resolve'[0m
-      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/finders.rb:53:in `find'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:597:in `perform_click_action'[0m
+      [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/element.rb:171:in `click'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/node/actions.rb:58:in `click_button'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/session.rb:768:in `block (2 levels) in <class:Session>'[0m
       [36m# /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/capybara-3.35.3/lib/capybara/dsl.rb:58:in `block (2 levels) in <module:DSL>'[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:145:in `block (4 levels) in <main>'[0m
+      [36m# ./spec/system/03_finishing_touches_spec.rb:159:in `block (4 levels) in <main>'[0m
 
-  43) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする 投稿が更新されない
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP3::Nested_2::Title_2:0x000000000aa97810>[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:156:in `block (4 levels) in <main>'[0m
-
-  44) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする 投稿編集画面を表示しており、フォームの内容が正しい
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP3::Nested_2::Title_2:0x000000000ac8b180>[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:156:in `block (4 levels) in <main>'[0m
-
-  45) [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする エラーメッセージが表示される
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP3::Nested_2::Title_2:0x000000000ae93090>[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:156:in `block (4 levels) in <main>'[0m
-
-  46) [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する 投稿編集画面
-      [31mFailure/Error: visit edit_book_path(book)[0m
-      [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP3::Nested_3:0x0000000008940b08>[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:200:in `block (3 levels) in <main>'[0m
-
-  47) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい
+  29) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい
       [31mFailure/Error: expect(page).to have_link other_book.user.name, href: user_path(other_book.user)[0m
-      [31m  expected to find link "zot8kffhso" with href "/users/1" but there were no matches[0m
+      [31m  expected to find link "z0x33d3h45" with href "/users/1" but there were no matches[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:226:in `block (5 levels) in <main>'[0m
 
-  48) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿編集画面 遷移できず、投稿一覧画面にリダイレクトされる
-      [31mFailure/Error: visit edit_book_path(other_book)[0m
+  30) [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿編集画面 遷移できず、投稿一覧画面にリダイレクトされる
+      [31mFailure/Error: expect(current_path).to eq '/books'[0m
       [31m[0m
-      [31mNoMethodError:[0m
-      [31m  undefined method `edit_book_path' for #<RSpec::ExampleGroups::STEP3::Nested_4::Nested_2:0x0000000009e783e0>[0m
-      [36m# ./spec/system/03_finishing_touches_spec.rb:262:in `block (4 levels) in <main>'[0m
+      [31m  expected: "/books"[0m
+      [31m       got: "/books/2/edit"[0m
+      [31m[0m
+      [31m  (compared using ==)[0m
+      [36m# ./spec/system/03_finishing_touches_spec.rb:263:in `block (4 levels) in <main>'[0m
 
-  49) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 投稿一覧のユーザ画像のリンク先が正しい
+  31) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 投稿一覧のユーザ画像のリンク先が正しい
       [31mFailure/Error: expect(page).to have_link '', href: user_path(other_user)[0m
       [31m  expected to find link "" with href "/users/1" but there were no matches[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:277:in `block (5 levels) in <main>'[0m
 
-  50) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 自分の投稿は表示されない
+  32) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 自分の投稿は表示されない
       [31mFailure/Error: expect(page).not_to have_content book.title[0m
-      [31m  expected not to find text "5frq0" in "Bookers Home Users Books logout\nUser info\nname 3se89fvt34 introduction 72dm2kp0nmen8jrtwrke\nNew book\n本のタイトル\n感想文\nタイトル： 5frq0\n感想：de0p0ch7rwh5ltlo1259\n投稿者：q406zi75df\n投稿ユーザー画像：\nタイトル： 02h9j\n感想：j9013vgh4p8odprjwq6n\n投稿者：3se89fvt34\n投稿ユーザー画像：\nCopyRight Infratop.inc"[0m
+      [31m  expected not to find text "te2pg" in "Bookers Home Users Books logout\nUser info\nname fs7m62pitw introduction d9b3btdo9sf4w9v18qlx\nNew book\n本のタイトル\n感想文\nタイトル： te2pg\n感想：pjp4l1bzljy14s8915cv\n投稿者：01d7i5m8ak\n投稿ユーザー画像：\nタイトル： kif8y\n感想：ikuep8ikr89kil4u1t6z\n投稿者：fs7m62pitw\n投稿ユーザー画像：\nCopyRight Infratop.inc"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:286:in `block (5 levels) in <main>'[0m
 
-  51) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 自分の名前と紹介文は表示されない
+  33) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト サイドバーの確認 自分の名前と紹介文は表示されない
       [31mFailure/Error: expect(page).not_to have_content user.name[0m
-      [31m  expected not to find text "900w0jforw" in "Bookers Home Users Books logout\nUser info\nname ib1f108wcp introduction jk1697tgxu0bct0l0a8o\nNew book\n本のタイトル\n感想文\nタイトル： zktod\n感想：6ozmzaxdwb0qj8t0dzv1\n投稿者：900w0jforw\n投稿ユーザー画像：\nタイトル： d14yq\n感想：k6ss7ddyqqlaatpa9l1g\n投稿者：ib1f108wcp\n投稿ユーザー画像：\nCopyRight Infratop.inc"[0m
+      [31m  expected not to find text "heifbsox6c" in "Bookers Home Users Books logout\nUser info\nname qkihiryz4g introduction qy4bnfql3u1vvhn4xt5w\nNew book\n本のタイトル\n感想文\nタイトル： qjixt\n感想：duhvta2n89wx19wslt34\n投稿者：heifbsox6c\n投稿ユーザー画像：\nタイトル： vupm6\n感想：46svbqq892qi483mwj1r\n投稿者：qkihiryz4g\n投稿ユーザー画像：\nCopyRight Infratop.inc"[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:300:in `block (5 levels) in <main>'[0m
 
-  52) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ情報編集画面 遷移できず、自分のユーザ詳細画面にリダイレクトされる
+  34) [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ情報編集画面 遷移できず、自分のユーザ詳細画面にリダイレクトされる
       [31mFailure/Error: expect(current_path).to eq '/users/' + user.id.to_s[0m
       [31m[0m
       [31m  expected: "/users/2"[0m
@@ -737,77 +768,59 @@ Failures:
       [31m  (compared using ==)[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:312:in `block (4 levels) in <main>'[0m
 
-  53) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている ユーザ一覧画面
+  35) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている ユーザ一覧画面
       [31mFailure/Error: is_expected.to have_selector '.container .row .col-md-3'[0m
       [31m  expected to find css ".container .row .col-md-3" but there were no matches[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:329:in `block (3 levels) in <main>'[0m
 
-  54) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている ユーザ詳細画面
+  36) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている ユーザ詳細画面
       [31mFailure/Error: is_expected.to have_selector '.container .row .col-md-3'[0m
       [31m  expected to find css ".container .row .col-md-3" but there were no matches[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:334:in `block (3 levels) in <main>'[0m
 
-  55) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている 投稿一覧画面
+  37) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている 投稿一覧画面
       [31mFailure/Error: is_expected.to have_selector '.container .row .col-md-3'[0m
       [31m  expected to find css ".container .row .col-md-3" but there were no matches[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:339:in `block (3 levels) in <main>'[0m
 
-  56) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている 投稿詳細画面
+  38) [STEP3] 仕上げのテスト グリッドシステムのテスト: container, row, col-md-〇を正しく使えている 投稿詳細画面
       [31mFailure/Error: is_expected.to have_selector '.container .row .col-md-3'[0m
       [31m  expected to find css ".container .row .col-md-3" but there were no matches[0m
       [36m# ./spec/system/03_finishing_touches_spec.rb:344:in `block (3 levels) in <main>'[0m
 
-Finished in 15.51 seconds (files took 1.42 seconds to load)
-[31m197 examples, 56 failures[0m
+Finished in 16.4 seconds (files took 1.98 seconds to load)
+[31m197 examples, 38 failures[0m
 
 Failed examples:
 
 [31mrspec ./spec/system/02_after_login_spec.rb:50[0m [36m# [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 表示内容の確認 自分と他人の画像のリンク先が正しい[0m
-[31mrspec ./spec/system/02_after_login_spec.rb:87[0m [36m# [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト サイドバーの確認 Create Bookボタンが表示される[0m
-[31mrspec ./spec/system/02_after_login_spec.rb:98[0m [36m# [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 投稿成功のテスト 自分の新しい投稿が正しく保存される[0m
-[31mrspec ./spec/system/02_after_login_spec.rb:101[0m [36m# [STEP2] ユーザログイン後のテスト 投稿一覧画面のテスト 投稿成功のテスト リダイレクト先が、保存できた投稿の詳細画面になっている[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:120[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:129[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿の編集リンクが表示される[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:132[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 表示内容の確認 投稿の削除リンクが表示される[0m
-[31mrspec ./spec/system/02_after_login_spec.rb:160[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト サイドバーの確認 Create Bookボタンが表示される[0m
-[31mrspec ./spec/system/02_after_login_spec.rb:171[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 投稿成功のテスト 自分の新しい投稿が正しく保存される[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:177[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 編集リンクのテスト 編集画面に遷移する[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:188[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 削除リンクのテスト 正しく削除される[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:191[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿詳細画面のテスト 削除リンクのテスト リダイレクト先が、投稿一覧画面になっている[0m
-[31mrspec ./spec/system/02_after_login_spec.rb:203[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 URLが正しい[0m
-[31mrspec ./spec/system/02_after_login_spec.rb:206[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 「Editing Book」と表示される[0m
-[31mrspec ./spec/system/02_after_login_spec.rb:209[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 title編集フォームが表示される[0m
-[31mrspec ./spec/system/02_after_login_spec.rb:212[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 opinion編集フォームが表示される[0m
-[31mrspec ./spec/system/02_after_login_spec.rb:215[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Update Bookボタンが表示される[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:218[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Showリンクが表示される[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:221[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 表示の確認 Backリンクが表示される[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:235[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト titleが正しく更新される[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:238[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト bodyが正しく更新される[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:241[0m [36m# [STEP2] ユーザログイン後のテスト 自分の投稿編集画面のテスト 編集成功のテスト リダイレクト先が、更新した投稿の詳細画面になっている[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:264[0m [36m# [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト 表示内容の確認 自分と他人のshowリンクがそれぞれ表示される[0m
-[31mrspec ./spec/system/02_after_login_spec.rb:293[0m [36m# [STEP2] ユーザログイン後のテスト ユーザ一覧画面のテスト サイドバーの確認 Create Bookボタンが表示される[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:317[0m [36m# [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト 表示の確認 他人の投稿は表示されない[0m
-[31mrspec ./spec/system/02_after_login_spec.rb:347[0m [36m# [STEP2] ユーザログイン後のテスト 自分のユーザ詳細画面のテスト サイドバーの確認 Create Bookボタンが表示される[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:371[0m [36m# [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 表示の確認 Update Userボタンが表示される[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:385[0m [36m# [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト nameが正しく更新される[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:388[0m [36m# [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト introductionが正しく更新される[0m
 [31mrspec ./spec/system/02_after_login_spec.rb:391[0m [36m# [STEP2] ユーザログイン後のテスト 自分のユーザ情報編集画面のテスト 更新成功のテスト リダイレクト先が、自分のユーザ詳細画面になっている[0m
-[31mrspec ./spec/system/03_finishing_touches_spec.rb:12[0m [36m# [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザ新規登録成功時[0m
-[31mrspec ./spec/system/03_finishing_touches_spec.rb:21[0m [36m# [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザログイン成功時[0m
-[31mrspec ./spec/system/03_finishing_touches_spec.rb:28[0m [36m# [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザログアウト成功時[0m
 [31mrspec ./spec/system/03_finishing_touches_spec.rb:38[0m [36m# [STEP3] 仕上げのテスト サクセスメッセージのテスト ユーザのプロフィール情報更新成功時[0m
 [31mrspec ./spec/system/03_finishing_touches_spec.rb:47[0m [36m# [STEP3] 仕上げのテスト サクセスメッセージのテスト 投稿データの新規投稿成功時: 投稿一覧画面から行います。[0m
 [31mrspec ./spec/system/03_finishing_touches_spec.rb:58[0m [36m# [STEP3] 仕上げのテスト サクセスメッセージのテスト 投稿データの更新成功時[0m
 [31mrspec ./spec/system/03_finishing_touches_spec.rb:109[0m [36m# [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする 更新されない[0m
 [31mrspec ./spec/system/03_finishing_touches_spec.rb:112[0m [36m# [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする ユーザ編集画面を表示しており、フォームの内容が正しい[0m
 [31mrspec ./spec/system/03_finishing_touches_spec.rb:115[0m [36m# [STEP3] 仕上げのテスト 処理失敗時のテスト ユーザのプロフィール情報編集失敗: nameを1文字にする バリデーションエラーが表示される[0m
-[31mrspec ./spec/system/03_finishing_touches_spec.rb:131[0m [36m# [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする 投稿が保存されない[0m
 [31mrspec ./spec/system/03_finishing_touches_spec.rb:134[0m [36m# [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする 投稿一覧画面を表示している[0m
-[31mrspec ./spec/system/03_finishing_touches_spec.rb:144[0m [36m# [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの新規投稿失敗: 投稿一覧画面から行い、titleを空にする バリデーションエラーが表示される[0m
 [31mrspec ./spec/system/03_finishing_touches_spec.rb:162[0m [36m# [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする 投稿が更新されない[0m
 [31mrspec ./spec/system/03_finishing_touches_spec.rb:165[0m [36m# [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする 投稿編集画面を表示しており、フォームの内容が正しい[0m
 [31mrspec ./spec/system/03_finishing_touches_spec.rb:170[0m [36m# [STEP3] 仕上げのテスト 処理失敗時のテスト 投稿データの更新失敗: titleを空にする エラーメッセージが表示される[0m
-[31mrspec ./spec/system/03_finishing_touches_spec.rb:199[0m [36m# [STEP3] 仕上げのテスト ログインしていない場合のアクセス制限のテスト: アクセスできず、ログイン画面に遷移する 投稿編集画面[0m
 [31mrspec ./spec/system/03_finishing_touches_spec.rb:225[0m [36m# [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿詳細画面のテスト 表示内容の確認 ユーザ画像・名前のリンク先が正しい[0m
 [31mrspec ./spec/system/03_finishing_touches_spec.rb:261[0m [36m# [STEP3] 仕上げのテスト 他人の画面のテスト 他人の投稿編集画面 遷移できず、投稿一覧画面にリダイレクトされる[0m
 [31mrspec ./spec/system/03_finishing_touches_spec.rb:276[0m [36m# [STEP3] 仕上げのテスト 他人の画面のテスト 他人のユーザ詳細画面のテスト 表示の確認 投稿一覧のユーザ画像のリンク先が正しい[0m
