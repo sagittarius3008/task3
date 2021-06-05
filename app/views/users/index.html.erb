@@ -14,7 +14,7 @@
         <tr>
           <td><%= attachment_image_tag user, :profile_image, :fill, 80, 80, fallback: "no_image.jpg" %></td>
           <td><%= user.name %></td>
-          <td><%= link_to 'show', user_path(user.id) %></td>
+          <td><%= link_to 'Show', user_path(user) %></td>
         </tr>
         <% end%>
       </tbody>

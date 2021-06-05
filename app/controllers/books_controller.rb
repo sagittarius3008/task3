@@ -11,10 +11,14 @@ class BooksController < ApplicationController
       # books_path(@book.id)からusers_pathに変更。
       # →show画面はbook_path！
       # 投稿する画面によりエラーなったり投稿できたり
-      flash[:notice] = "Successfully"
+      flash[:notice] = "successfully"
       redirect_to book_path(@book.id)
     else
-      render :new
+      flash.now[:alert] = 'Error'
+      @books = Book.all
+      @book = Book.new
+      @user = current_user
+      render :index
     end
   end
 
