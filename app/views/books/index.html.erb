@@ -1,11 +1,11 @@
 <!--infoフォルダがusersに入ってるのでusers/info-->
 <%= render 'users/info', book: @book ,user: @user%>
-<div>
+<div class= "col-8">
 <h3>books index</h3>
 <% @books.each do |book| %>
   <div>
     <p>本の題名：
-      <%= link_to book_path(book.id) do %><%= book.title %><% end %>
+      
     </p>
     <p><%= attachment_image_tag book.user, :profile_image, :fill, 30, 30, fallback: "no_image.jpg" %></p>
     <p>説明：<%= book.body %></p>

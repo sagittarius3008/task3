@@ -1,28 +1,28 @@
-<div class="col-md3">
+<div class="col-4 m-2">
 <!--ユーザー詳細-->
-<h4>User info</h4>
-<p><%= attachment_image_tag user, :profile_image, :fill, 50, 50, fallback: "no_image.jpg" %></p>
-<table>
-  <tr>
-    <th>name</th>
-    <th><%= user.name %></th>
-  </tr>
-  <tr>
-    <th>introduction</th>
-    <th><%= user.introduction %></th>
-  </tr>
-</table>
- <%= link_to edit_user_path(user.id) do %><i class="fas fa-user-cog"></i><% end %>
+  <h4>User info</h4>
+  <p><%= attachment_image_tag user, :profile_image, :fill, 50, 50, fallback: "no_image.jpg" %></p>
+  <table>
+    <tr>
+      <th>name</th>
+      <th><%= user.name %></th>
+    </tr>
+    <tr>
+      <th>introduction</th>
+      <th><%= user.introduction %></th>
+    </tr>
+  </table>
+  <%= link_to edit_user_path(user.id) do %><i class="fas fa-user-cog"></i><% end %>
 
 <!--投稿フォーム-->
 <!--form_withモデルがBook.newを渡されるとcreateアクションを呼び出す-->
-<h4>New book</h4>
-<%= form_with model: book, local:true do |f| %>
-  <h4>本のタイトル</h4>
-  <%= f.text_field :title %>
-  <h4>感想文</h4>
-  <%= f.text_area :body %>
-  <div><%= f.submit 'Create Book' %></div>
-<% end %>
-
+    <h4>New book</h4>
+    <%= form_with model: book, local:true do |f| %>
+      <h4>本のタイトル</h4>
+    <%= f.text_field :title %>
+      <h4>感想文</h4>
+    <%= f.text_area :body %>
+      <div><%= f.submit 'Create Book' %></div>
+    <% end %>
+</div>
 </div>
