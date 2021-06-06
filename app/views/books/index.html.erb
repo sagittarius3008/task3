@@ -1,21 +1,21 @@
 <!--infoフォルダがusersに入ってるのでusers/info-->
 <%= render 'users/info', book: @book ,user: @user%>
 <div class= "col-md-8 offset-md-1">
-<h3>Books</h3>
-<% @books.each do |book| %>
-  <div>
-    <p>本の題名：
+  <h3>Books</h3>
+  <% @books.each do |book| %>
+  <div class="card">
+    <p class="m-0">タイトル：
       <%= link_to book_path(book.id) do %>
         <%= book.title %>
       <% end %>
     </p>
-    <p>
+    <p>opinion：<%= book.body %></p>
+    <p class="m-0">
       <%= link_to user_path(book.user.id) do %>
         <%= attachment_image_tag book.user, :profile_image, :fill, 30, 30, fallback: "no_image.jpg" %>
-    </p>
       <% end %>
-    <p>説明：<%= book.body %></p>
-    <p>ユーザーネーム：<%= book.user.name %></p>
+    </p>
+    <p>投稿者：<%= book.user.name %></p>
   </div>
 <% end %>
 </div>

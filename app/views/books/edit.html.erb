@@ -1,6 +1,8 @@
 <div>
 <h2>Editing Book</h2>
+
 <%= render 'books/books_validation', book: @book%>
+
 <%= form_with model:@book, local:true do |f| %>
   <label for="inputName">Title</label>
     <div><%= f.text_field :title, autofocus: true, id:"inputName", placeholder:"title"%></div>
@@ -8,6 +10,7 @@
     <div><%= f.text_field :body, autofocus: true, id:"inputName", placeholder:"opinion"%></div>
   <div><%= f.submit "Update Book" %></div>
 <% end %>
+
   <td><%= link_to "Show", book_path %></td>
   <td>|</td>
   <td><%= link_to "Back", books_path %></td>

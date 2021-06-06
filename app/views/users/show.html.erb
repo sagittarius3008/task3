@@ -3,7 +3,7 @@
 <!--対象userが投稿したbookの表示-->
 <h2>Books</h2>
 <% @books.each do |book| %>
-  <div>
+  <div class="card">
     <p>タイトル：
       <%= link_to book_path(book.id) do %>
         <%= book.title %>
