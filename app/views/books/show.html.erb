@@ -1,12 +1,11 @@
 <%= render 'users/info', book: @book ,user: @user%>
 
-<div class="book-body">
-  <h2>Book detail</p>
-  <table>
+<div class="col-md-8 offset-md-1">
+  <h2>Book detail</h2>
+  <table class="table table-sm">
     <tr>
       <td>
         <p>
-          <!--link先変更-->
           <%= link_to(user_path(@user))do %>
           <%= attachment_image_tag @user, :profile_image, :fill, 50, 50, fallback: "no_image.jpg" %>
           <p><%= @books.user.name %></p>

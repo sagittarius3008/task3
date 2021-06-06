@@ -14,9 +14,7 @@ class BooksController < ApplicationController
       flash[:notice] = "successfully"
       redirect_to book_path(@book.id)
     else
-      flash.now[:alert] = 'Error'
       @books = Book.all
-      @book = Book.new
       @user = current_user
       render :index
     end
@@ -38,12 +36,21 @@ class BooksController < ApplicationController
 
   def edit
     @book = Book.find(params[:id])
+    if @book.user == current_user
+      render "edit"
+    else
+      redirect_to books_path
+    end
   end
 
   def update
     @book = Book.find(params[:id])
-    @book.update(book_params)
-    redirect_to book_path(@book.id)
+    if @book.update(book_params)
+       flash[:notice] = "successfully"
+      redirect_to book_path(@book.id)
+    else
+      render:edit
+    end
   end
 
   def destroy

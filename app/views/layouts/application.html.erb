@@ -1,71 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <html lang="ja">
-    <title>Bookers</title>
     <script src="https://kit.fontawesome.com/61db8fb7c5.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <title>Bookers</title>
   </head>
 
   <body>
+    <!--ナビゲーション-->
     <ul class="navbar-nav ml-auto bg-dark">
+      <div class="container">
         <div class="d-flex">
           <li class="p-2 flex-grow-1"><%= link_to 'Bookers', root_path, class:"text-white"%></li>
+       <!--サインイン状況により表示を変更-->
         <% if user_signed_in? %>
           <li class="p-2 nav-item">
-          <i class="fas fa-home"></i>
-          <%= link_to 'Home', user_path(current_user.id) , class:"text-white"%>
-        </li>
+            <i class="fas fa-home"></i>
+            <%= link_to 'Home', user_path(current_user.id) , class:"text-white"%>
+          </li>
+
           <li class="p-2 nav-item">
-          <i class="fas fa-users"></i>
-          <%= link_to 'Users', users_path , class:"text-white"%>
-        </li>
+            <i class="fas fa-users"></i>
+            <%= link_to 'Users', users_path , class:"text-white"%>
+          </li>
+
           <li class="p-2 nav-item">
-          <i class="fas fa-book-open"></i>
-          <%= link_to 'Books', books_path , class:"text-white"%>
-        </li>
+            <i class="fas fa-book-open"></i>
+            <%= link_to 'Books', books_path , class:"text-white"%>
+          </li>
+
           <li class="p-2 nav-item">
-          <i class="fas fa-sign-out-alt"></i>
-          <%= link_to "logout", destroy_user_session_path, method: :delete , class:"text-white" %>
-        </li>
+            <i class="fas fa-sign-out-alt"></i>
+            <%= link_to "logout", destroy_user_session_path, method: :delete , class:"text-white" %>
+          </li>
+
         <% else %>
           <li class="p-2 nav-item">
-          <i class="fas fa-home"></i>
-          <%= link_to 'Home', root_path, class:"text-white" %>
-        </li>
+            <i class="fas fa-home"></i>
+            <%= link_to 'Home', root_path, class:"text-white" %>
+          </li>
+
           <li class="p-2 nav-item">
-          <i class="fas fa-link"></i>
-          <%= link_to "about", home_about_path, class:"text-white" %>
-        </li>
+            <i class="fas fa-link"></i>
+            <%= link_to "about", home_about_path, class:"text-white" %>
+          </li>
+
           <li class="p-2 nav-item">
-          <i class="fas fa-user-plus"></i>
-          <%= link_to "sign up", new_user_registration_path, class:"text-white" %>
-        </li>
+            <i class="fas fa-user-plus"></i>
+            <%= link_to "sign up", new_user_registration_path, class:"text-white" %>
+          </li>
+
           <li class="p-2 nav-item">
-          <i class="fas fa-sign-in-alt"></i>
-          <%= link_to "login", new_user_session_path , class:"text-white"%>
-        </li>
+            <i class="fas fa-sign-in-alt"></i>
+            <%= link_to "login", new_user_session_path , class:"text-white"%>
+          </li>
         <% end %>
         </div>
+      </div>
     </ul>
 
-    <!--successメッセージ-->
-    <% if flash[:notice] %>
-      <div class="flash">
-        <%= flash[:notice] %>
-      </div>
-    <% end %>
-    <p id="alert"><%= alert %></p>
-
     <main>
-      <div class="d-flex container m-0 p-0">
-        rowを設定したときの場所？？
+      <div class="container">
+        
+            <!--successメッセージ-->
+        <% if flash[:notice] %>
+          <div class="flash">
+            <%= flash[:notice] %>
+          </div>
+        <% end %>
+            <!--successメッセージここまで-->
+            
         <div class="row">
           <%= yield %>
         </div>
@@ -74,7 +83,7 @@
 
 
     <footer>
-      <div class ="container m-3">
+      <div class ="container">
         <div class ="row">
           <div class="mx-auto" style="width: 200px;">CopyRight Infratop.inc</div>
         </div>

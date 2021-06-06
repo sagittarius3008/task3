@@ -1,5 +1,6 @@
 <div>
 <h2>Editing Book</h2>
+<%= render 'books/books_validation', book: @book%>
 <%= form_with model:@book, local:true do |f| %>
   <label for="inputName">Title</label>
     <div><%= f.text_field :title, autofocus: true, id:"inputName", placeholder:"title"%></div>

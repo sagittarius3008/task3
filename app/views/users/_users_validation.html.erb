@@ -1,0 +1,6 @@
+    <!--errorメッセージ-->
+    <% @user.errors.full_messages.each do |message| %>
+      <div class="form-error">
+        <%= message %>
+      </div>
+    <% end %>

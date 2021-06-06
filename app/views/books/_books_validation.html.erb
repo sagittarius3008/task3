@@ -1,0 +1,9 @@
+    <!--errorメッセージ-->
+    <% if @book && @book.errors.any? %>
+      <%= @book.errors.count %>errors prohibited this obj from being saved:<br>
+      <% @book.errors.full_messages.each do |message| %>
+      <div class="form-error">
+        <%= message %>
+      </div>
+      <% end %>
+     <% end %>

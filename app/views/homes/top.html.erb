@@ -1,9 +1,11 @@
+<div class="col-md-6 mx-auto">
 <h1>Welcome to <i class="fas fa-book"></i>Bookers!</h1>
-<div><i class="fas fa-book"></i>In Bookers,</div>
+<div>In<i class="fas fa-book"></i> Bookers,</div>
 <div>you can share and exchange your opinions , inpressions , and emotions<br>about various books!</div>
-      <li>
-        <%= link_to "Log in", new_user_session_path %>
+      <li class="list-unstyled col-md-4">
+        <%= link_to "Log in", new_user_session_path,class:"btn btn-primary btn-block sign_in m-3" %>
       </li>
-      <li>
-        <%= link_to "Sign up", new_user_registration_path %>
+      <li class="list-unstyled col-md-4">
+        <%= link_to "Sign up", new_user_registration_path,class:"btn btn-success btn-block sign_in m-3" %>
       </li>
+</div>
