@@ -12,7 +12,7 @@
     <p>opinion：<%= book.body %></p>
     <p class="m-0">
       <%= link_to user_path(book.user.id) do %>
-        <%= attachment_image_tag book.user, :profile_image, :fill, 30, 30, fallback: "no_image.jpg" %>
+        <%= attachment_image_tag book.user, :profile_image, :fill, 60, 60, fallback: "no_image.jpg",size:"60x60" %>
       <% end %>
     </p>
     <p>投稿者：<%= book.user.name %></p>

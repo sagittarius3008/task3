@@ -1,11 +1,13 @@
-<div class="col-md-6 mx-auto">
-<h1>Welcome to <i class="fas fa-book"></i>Bookers!</h1>
-<div>In<i class="fas fa-book"></i> Bookers,</div>
-<div>you can share and exchange your opinions , inpressions , and emotions<br>about various books!</div>
-      <li class="list-unstyled col-md-4">
-        <%= link_to "Log in", new_user_session_path,class:"btn btn-primary btn-block sign_in m-3" %>
-      </li>
-      <li class="list-unstyled col-md-4">
-        <%= link_to "Sign up", new_user_registration_path,class:"btn btn-success btn-block sign_in m-3" %>
-      </li>
+<div class="col-11 mx-auto col-sm-10 col-lg-8 col xl-6">
+  <h1>Welcome to <i class="fas fa-book"></i>Bookers!</h1>
+  <div>In<i class="fas fa-book"></i> Bookers,</div>
+  <div>you can share and exchange your opinions , inpressions , and emotions<br>about various books!</div>
+  <ul class="col-10">
+    <li class="list-unstyled">
+      <%= link_to "Log in", new_user_session_path,class:"btn btn-primary btn-block sign_in m-3 btn-sm mx-auto" %>
+    </li>
+    <li class="list-unstyled">
+      <%= link_to "Sign up", new_user_registration_path,class:"btn btn-success btn-block sign_in m-3 btn-sm mx-auto" %>
+    </li>
+  </ul>
 </div>
